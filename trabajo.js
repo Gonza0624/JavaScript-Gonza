@@ -48,6 +48,26 @@
 // let boolean = false;
 
 
+// ---------------------------------------------------------------------------------------------------------------------------------------------------------------
+// PEDIR DATOS
+
+// let n1 = prompt('ingresa el numero 1')
+// let n2 = prompt('ingresa el numero 2')
+// let total = n1 + n2 // Concatena los numeros solo cuando usamos '+'
+// document.write('suma sin convertir a numeros ' + total + '<br><br>')
+
+// let n3 = prompt('ingresa el numero 3')
+// let n4 = prompt('ingresa el numero 4')
+// let total2 = parseInt(n3) + parseInt(n4); // parseInt convierte a numeros
+// document.write('suma usando parseInt ' + total2 + '<br><br>')
+
+// let n5 = prompt('ingresa el numero 5')
+// let n6 = prompt('ingresa el numero 6')
+// let total3 = Number(n5) + Number(n6);// convierte a numeros
+// document.write('suma usando number ' + total3)
+
+
+
 // ------------------------------------------------------------------------ ARREGLOS --------------------------------------------------------------------
 
 
@@ -176,6 +196,28 @@
     //     default:
     //         console.log('no accediste a ninguna estacion');
     // }
+
+
+    // // ** condicional Ternario
+
+    // let nombre = 'brayan'
+
+    // let validar = (nombre == 'gonza') ? "eres bienvenido" : "no eres bienvenido";
+
+    // document.write(validar)
+
+    // // --------------------------------------
+
+    // let lado = prompt("ingresa el valor de uno de los lados del cuadrado");
+    // let area;
+
+    // (lado <= 3) ? (
+    //     alert("no se puede hacer el calculo con ese valor"),
+    //     document.write("no se ha podido realizar la operacion")
+    // ) : (
+    //     area = parseInt(lado) * parseInt(lado),
+    //     document.write("el area del cuadrado es igual a: " + area)
+    // );
 
 
 //     ------------------------------------------------------------------ CICLOS ---------------------------------------------------------------------------//
@@ -490,6 +532,13 @@
 // dias.forEach(x => {
 //     console.log(x);
 // })
+
+
+
+// math.PI - valor de pi
+// math.pow(base, exponente) - potencias
+
+
 
 
 
